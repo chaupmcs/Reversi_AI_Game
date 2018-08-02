@@ -1,0 +1,22 @@
+{
+  "name": "hcmut_ai_go_server",
+  "version": "0.0.4",
+  "description": "Server for playing Go written in AI Course of HCMUT 2016",
+  "main": "reversiServer.js",
+  "dependencies": {
+    "socket.io": "^1.4.0",
+    "express": "^4.10.0",
+    "randomstring": "^1.1.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "go",
+    "ai"
+  ],
+  "author": "superbo",
+  "license": "MIT"
+}

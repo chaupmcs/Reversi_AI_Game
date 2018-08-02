@@ -1,0 +1,21 @@
+*Window:
+Guide to test computer vs computer
+B1: Run Server
+> $ cd ass2
+> $ node reversiServer.js
+
+#Note: install library socketIO_client before connect computer to server.
+B1.1: Install pip https://pip.pypa.io/en/stable/installing/
+
+B1.2: Install library socketIO
+> $ pip install -U socketIO_client
+
+B2: Connect computer 1 to server 
+> $ python examples/python-client.py
+Fill token 1 to connect server
+
+B3: Connect computer 2 to server 
+> $ python examples/python-client-2.py
+Fill token 2 to connect server
+
+B4: Done
